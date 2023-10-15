@@ -1,0 +1,77 @@
+/* 테이블 스타일 */
+table {
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-top: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+
+  /* 이전 스타일을 .even-row 클래스로 대체 */
+  .even-row {
+    background-color: #e5ffe7;
+  }
+
+  /* 이전 스타일을 .odd-row 클래스로 대체 */
+  .odd-row {
+    background-color: #ecf5ff;
+  }
+
+  /* 마우스 커서가 셀 위에 올라가 있을 때 셀의 색상이나 커서의 모양을 바꾸기 */
+  .highlight {
+    background-color: #fff0ef;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  /* 폰트 크기 조절 및 테두리와 텍스트간의 간격 조절 */
+  td {
+    padding: 5px;
+  }
+
+
+  #output-container{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  #output-container table{
+    width:400px;
+    text-align: center;
+    border: 1px solid rgb(182, 182, 182);
+  }
+
+
+
+  /* 이전 스타일을 #output-container table td 선택자로 대체 */
+  #output-container table td {
+    padding: 5px;
+  }
+
+  /* 이전 스타일을 #output-container table tbody tr:nth-child(odd) 선택자로 대체 */
+  #output-container table tbody tr:nth-child(odd) {
+    background-color: #e6f1ff;
+  }
+
+  /* 이전 스타일을 #output-container table tbody tr:nth-child(even) 선택자로 대체 */
+  #output-container table tbody tr:nth-child(even) {
+    background-color: #f0f7ff;
+  }
+
+  /* 이전 스타일을 #output-container table tbody tr:hover 선택자로 대체 */
+  #output-container table tbody tr:hover {
+    background-color: #ffc5c2;
+    cursor: pointer;
+  }
+
+  /* 이전 스타일을 #output-container div 선택자로 대체 */
+  #output-container div {
+    border: 1px solid #ffebb5;
+    background-color: #ffebb5;
+    border-radius: 16px;
+    box-shadow: inset 0 0 8px #deb13a;
+    width: 160px;
+    height: 160px;
+  }

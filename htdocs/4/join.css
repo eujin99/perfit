@@ -1,0 +1,82 @@
+*{
+  border: none;
+}
+h2 {
+  color: #A7E139;
+}
+body{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+  width: 100%;
+  height: auto;
+}
+main {
+  flex-grow: 1;
+}
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  top: 10%
+}
+
+
+.joinForm {
+  width: 400px;
+  height: auto;
+  padding: 30px, 20px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.joinForm h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.textForm {
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.id,
+.pw,
+.name,
+.age,
+.sex,
+.height,
+.weight,
+.bmi {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #636e72;
+  font-size: 16px;
+  height: 25px;
+  background: none;
+}
+
+.btn {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  background: linear-gradient(125deg, #c2df8c, #a7e139, #92d319);
+  background-position: left;
+  background-size: 200%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline;
+}
+
+.btn:hover {
+  background-position: right;
+}

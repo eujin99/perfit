@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+    transition: 0.4s;
+    background-color: #A7E139;
+}
+
+label {
+    display: inline-block;
+    width:90px;
+    margin-top: 10px;
+}
+
+input[type="text"]{
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid #858383;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #858383;
+}
+
+th, td {
+    border: 1px solid #858383;
+    padding: 8px;
+}
+
+th {
+    background-color: #000000;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.button1{
+    margin-top: 10px;
+}
+
+.admin_main{
+    margin-top: 100px;
+}
+
+.delete_member{
+    width:120px;
+}
+
