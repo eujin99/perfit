@@ -2,6 +2,9 @@
 ## perfect_fitness
 ### 운동과 식단추천 웹 서비스
 
+URL :
+https://perfit-eujin.koyeb.app/main.php
+
 1. 메인페이지
 <p align="center">
   <img src="https://github.com/eujinjung/perfit/assets/121158335/a0bbf0f4-01ad-42ba-87de-8ff1c4692519">
