@@ -33,7 +33,7 @@ if ($conn->connect_error) {
         <div class="header-background">
             <div class="header-wrap">
                 <div class="header-logo">
-                    <a href="./main.html">
+                    <a href="./main.php">
                         <img src="./img/PERFIT_logo.png" alt="logo" class="logo">
                     </a>
                     <div class="header-menu">
